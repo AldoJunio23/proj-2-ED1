@@ -1,0 +1,10 @@
+C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\bin\Debug\apCalculadora.exe.config
+C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\bin\Debug\apCalculadora.exe
+C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\bin\Debug\apCalculadora.pdb
+C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\obj\Debug\apCalculadora.csproj.AssemblyReference.cache
+C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\obj\Debug\apCalculadora.apCalculadora.resources
+C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\obj\Debug\apCalculadora.Properties.Resources.resources
+C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\obj\Debug\apCalculadora.csproj.GenerateResource.cache
+C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\obj\Debug\apCalculadora.csproj.CoreCompileInputs.cache
+C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\obj\Debug\apCalculadora.exe
+C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\obj\Debug\apCalculadora.pdb

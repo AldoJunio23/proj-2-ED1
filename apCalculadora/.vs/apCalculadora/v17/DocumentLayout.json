@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\00 - Development\\01 - School\\03 - Projects\\23121_23579_Proj2ED\\apCalculadora\\apCalculadora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46DD6D28-BE1B-4938-BA83-A4973A1F8F42}|apCalculadora.csproj|c:\\00 - development\\01 - school\\03 - projects\\23121_23579_proj2ed\\apcalculadora\\apcalculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46DD6D28-BE1B-4938-BA83-A4973A1F8F42}|apCalculadora.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DD6D28-BE1B-4938-BA83-A4973A1F8F42}|apCalculadora.csproj|C:\\00 - Development\\01 - School\\03 - Projects\\23121_23579_Proj2ED\\apCalculadora\\apCalculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46DD6D28-BE1B-4938-BA83-A4973A1F8F42}|apCalculadora.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DD6D28-BE1B-4938-BA83-A4973A1F8F42}|apCalculadora.csproj|C:\\00 - Development\\01 - School\\03 - Projects\\23121_23579_Proj2ED\\apCalculadora\\apCalculadora\\pilhavetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46DD6D28-BE1B-4938-BA83-A4973A1F8F42}|apCalculadora.csproj|solutionrelative:pilhavetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PilhaVetor.cs",
+              "DocumentMoniker": "C:\\00 - Development\\01 - School\\03 - Projects\\23121_23579_Proj2ED\\apCalculadora\\apCalculadora\\PilhaVetor.cs",
+              "RelativeDocumentMoniker": "PilhaVetor.cs",
+              "ToolTip": "C:\\00 - Development\\01 - School\\03 - Projects\\23121_23579_Proj2ED\\apCalculadora\\apCalculadora\\PilhaVetor.cs",
+              "RelativeToolTip": "PilhaVetor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T23:54:34.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\00 - Development\\01 - School\\03 - Projects\\23121_23579_Proj2ED\\apCalculadora\\apCalculadora\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\00 - Development\\01 - School\\03 - Projects\\23121_23579_Proj2ED\\apCalculadora\\apCalculadora\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAC0BAAAAAAAAAAAswDoBAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:54:58.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\00 - Development\\01 - School\\03 - Projects\\23121_23579_Proj2ED\\apCalculadora\\apCalculadora\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\00 - Development\\01 - School\\03 - Projects\\23121_23579_Proj2ED\\apCalculadora\\apCalculadora\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:29:20.023Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
