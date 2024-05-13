@@ -59,36 +59,38 @@ namespace apCalculadora
             // txtResultado
             // 
             this.txtResultado.BackColor = System.Drawing.Color.Gray;
-            this.txtResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtResultado.ForeColor = System.Drawing.Color.White;
-            this.txtResultado.Location = new System.Drawing.Point(6, 49);
+            this.txtResultado.Location = new System.Drawing.Point(6, 57);
             this.txtResultado.Margin = new System.Windows.Forms.Padding(2);
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.ReadOnly = true;
-            this.txtResultado.Size = new System.Drawing.Size(312, 26);
+            this.txtResultado.Size = new System.Drawing.Size(312, 35);
             this.txtResultado.TabIndex = 0;
+            this.txtResultado.TextChanged += new System.EventHandler(this.txtResultado_TextChanged);
             // 
             // txtVisor
             // 
             this.txtVisor.BackColor = System.Drawing.Color.Gray;
-            this.txtVisor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVisor.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVisor.ForeColor = System.Drawing.Color.White;
             this.txtVisor.Location = new System.Drawing.Point(6, 20);
             this.txtVisor.Margin = new System.Windows.Forms.Padding(2);
             this.txtVisor.Name = "txtVisor";
-            this.txtVisor.Size = new System.Drawing.Size(312, 26);
+            this.txtVisor.ReadOnly = true;
+            this.txtVisor.Size = new System.Drawing.Size(312, 35);
             this.txtVisor.TabIndex = 1;
-            this.txtVisor.TextChanged += new System.EventHandler(this.txtVisor_TextChanged);
+            this.txtVisor.Leave += new System.EventHandler(this.txtVisor_Leave);
             // 
             // lbPosfixa
             // 
             this.lbPosfixa.AutoSize = true;
-            this.lbPosfixa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPosfixa.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPosfixa.ForeColor = System.Drawing.Color.White;
-            this.lbPosfixa.Location = new System.Drawing.Point(9, 77);
+            this.lbPosfixa.Location = new System.Drawing.Point(9, 104);
             this.lbPosfixa.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbPosfixa.Name = "lbPosfixa";
-            this.lbPosfixa.Size = new System.Drawing.Size(265, 20);
+            this.lbPosfixa.Size = new System.Drawing.Size(302, 25);
             this.lbPosfixa.TabIndex = 2;
             this.lbPosfixa.Text = "A expressão pósfixa aparecerá aqui.";
             // 

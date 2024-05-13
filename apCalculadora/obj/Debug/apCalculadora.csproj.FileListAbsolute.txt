@@ -8,3 +8,13 @@ C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\
 C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\obj\Debug\apCalculadora.csproj.CoreCompileInputs.cache
 C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\obj\Debug\apCalculadora.exe
 C:\00 - Development\01 - School\03 - Projects\23121_23579_Proj2ED\apCalculadora\apCalculadora\obj\Debug\apCalculadora.pdb
+C:\Users\u23121\Documents\GitHub\proj-2-ED1\apCalculadora\bin\Debug\apCalculadora.exe.config
+C:\Users\u23121\Documents\GitHub\proj-2-ED1\apCalculadora\bin\Debug\apCalculadora.exe
+C:\Users\u23121\Documents\GitHub\proj-2-ED1\apCalculadora\bin\Debug\apCalculadora.pdb
+C:\Users\u23121\Documents\GitHub\proj-2-ED1\apCalculadora\obj\Debug\apCalculadora.csproj.AssemblyReference.cache
+C:\Users\u23121\Documents\GitHub\proj-2-ED1\apCalculadora\obj\Debug\apCalculadora.apCalculadora.resources
+C:\Users\u23121\Documents\GitHub\proj-2-ED1\apCalculadora\obj\Debug\apCalculadora.Properties.Resources.resources
+C:\Users\u23121\Documents\GitHub\proj-2-ED1\apCalculadora\obj\Debug\apCalculadora.csproj.GenerateResource.cache
+C:\Users\u23121\Documents\GitHub\proj-2-ED1\apCalculadora\obj\Debug\apCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\u23121\Documents\GitHub\proj-2-ED1\apCalculadora\obj\Debug\apCalculadora.exe
+C:\Users\u23121\Documents\GitHub\proj-2-ED1\apCalculadora\obj\Debug\apCalculadora.pdb

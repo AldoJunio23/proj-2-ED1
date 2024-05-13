@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Text;
 using System.Windows.Forms;
 
 //Por ter mais conhecimento em java, eu fui pesquisar se era existias algumas coisas
@@ -79,7 +81,7 @@ namespace apCalculadora
         }
         private void btnVirgula_Click(object sender, EventArgs e)
         {
-            infixa += ")";
+            infixa += ".";
             txtVisor.Text = infixa;
         }
 
@@ -238,10 +240,12 @@ namespace apCalculadora
         {
             List<double> valores = new List<double>();
             string numeroAtual = "";
+            char ponto = '.';
+            
 
             foreach (char caractere in expressao)
             {
-                if (char.IsDigit(caractere) || caractere == '.')
+                if (char.IsDigit(caractere) || caractere == ponto)
                 {
                     numeroAtual += caractere;
                 }
@@ -249,7 +253,9 @@ namespace apCalculadora
                 {
                     if (!string.IsNullOrEmpty(numeroAtual))
                     {
-                        valores.Add(double.Parse(numeroAtual));
+                        //CultureInfo.InvariantCulture é usada para formatação de números com um ponto como separador decimal.
+
+                        valores.Add(Double.Parse(numeroAtual, CultureInfo.InvariantCulture));
                         numeroAtual = "";
                     }
                 }
@@ -257,7 +263,7 @@ namespace apCalculadora
 
             if (!string.IsNullOrEmpty(numeroAtual))
             {
-                valores.Add(double.Parse(numeroAtual));
+                valores.Add(Double.Parse(numeroAtual, CultureInfo.InvariantCulture));
             }
 
             return valores.ToArray();
@@ -268,8 +274,7 @@ namespace apCalculadora
             letras = new string[valores.Length];
             for (int i = 0; i < valores.Length; i++)
             {
-                letras[i] = (((char)('a' + i)).ToString()).ToUpper(); //deixei em maiúsculas
-                                                                     //como é apresentado na apostila
+                letras[i] = (((char)('a' + i)).ToString()).ToUpper(); //deixei em maiúsculas, usando o ToUpper.
             }
             return letras;
         }
@@ -278,11 +283,13 @@ namespace apCalculadora
         {
             for (int i = 0; i < valores.Length; i++)
             {
-                //replace
-                expressao = expressao.Replace(valores[i].ToString(), letras[i]);
+                string valorString = valores[i].ToString(CultureInfo.InvariantCulture); 
+                expressao = expressao.Replace(valorString, letras[i]); 
             }
             return expressao;
         }
+
+
 
         private string ConverterInfixaparaPosfixa(string expressao)
         {
@@ -337,7 +344,8 @@ namespace apCalculadora
             {
                 if (char.IsLetter(caractere))
                 {
-                    int indice = char.ToLower(caractere) - 'a';
+                    //ToLower porque letras maiusculas e minusculas se diferenciam na tabela ASCII
+                    int indice = char.ToLower(caractere) - 'a'; 
                     pilhaValores.Empilhar(valores[indice]);
                 }
                 else
@@ -368,7 +376,9 @@ namespace apCalculadora
             return pilhaValores.Desempilhar();
         }
 
-        private void txtVisor_TextChanged(object sender, EventArgs e)
+        
+
+        private void txtVisor_Leave(object sender, EventArgs e)
         {
             string novoTexto = "";
             foreach (char c in txtVisor.Text)
@@ -387,6 +397,9 @@ namespace apCalculadora
             txtVisor.SelectionStart = novoTexto.Length;
         }
 
-        
+        private void txtResultado_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
